@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Penguin fashion</title>
-
     <!-- Tailwind cdn  -->
     <script src="https://cdn.tailwindcss.com"></script> 
     
@@ -24,9 +23,9 @@
     </style>
 </head>
 <body>
-    <header>
+    <header class="bg-[#FFFBF0;] pt-12 pb-20">
         <!-- nav section  -->
-        <nav class="flex justify-around items-center mt-12">
+        <nav class="flex justify-around items-center">
             <div class="flex items-center gap-3">
                 <i class="fa-solid fa-cart-plus font-extrabold text-3xl"></i>
                 <h4 class="font-bold text-2xl"> <span class="text-orange-500">Penguin</span> Fashion</h4>
@@ -39,6 +38,25 @@
             </div>
         </nav>
         <!-- nav section end  -->
+
+        <!-- banner part  -->
+        <div class="flex items-center justify-center">
+            <div>
+                <h1 class="text-7xl font-bold"> <span class="text-orange-400">Be the Penguins</span> <br>
+                    of Winter
+                </h1>
+                <p class="text-sm font-normal p-3">
+                    Lorem Ipsum is simply dummy text of the printing <br> and typesetting industry.
+                </p>
+                <button class="rounded-md bg-orange-500 text-white p-3">
+                    <i class="fa-solid fa-dolly p-1 font-semibold"></i>
+                    BUY NOW
+                </button>
+            </div>
+            <div>
+                <img src="images/model.png" alt="random image">
+            </div>
+        </div>
     </header>
     <main>
 
